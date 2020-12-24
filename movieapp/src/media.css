@@ -1,0 +1,32 @@
+/* Most of SmartPhones */
+@media (min-width: 320px) and (max-width: 480px) {
+  html,
+  body,
+  .container {
+    font-size: 62.5%;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .movies {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movies .movie {
+    width: 30rem;
+    height: 15rem;
+    font-size: 2em;
+  }
+
+  .movie img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .movie .genres {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
