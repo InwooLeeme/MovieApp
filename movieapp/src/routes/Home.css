@@ -1,0 +1,7 @@
+@import "../components/movie.css";
+@import "../components/reset.css";
+@import "../components/media.css";
+
+* {
+  box-sizing: border-box;
+}
