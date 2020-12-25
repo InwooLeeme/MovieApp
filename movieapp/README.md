@@ -9,4 +9,4 @@ My first react.js project!
 - [x] Get some movies data from API.
 - [x] Display movie data in main page.
 - [ ] Navigator.
-- [ ] Router
+- [x] Router
