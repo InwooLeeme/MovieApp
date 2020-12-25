@@ -8,7 +8,7 @@ import Home from "./routes/Home";
 function App(){
   return (
     <HashRouter>
-      <Navigation />
+      <Navigation/>
       <Route path="/" exact={true} component={Home}></Route>
       <Route path="/about" component={About}></Route>
       <Route path="/movie__detail" component={Detail}></Route>

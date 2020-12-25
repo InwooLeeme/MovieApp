@@ -20,6 +20,12 @@ html {
   width: 100%;
 }
 
+.movies .movie a {
+  display: flex;
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
 .movies .movie {
   display: flex;
   background-color: white;
