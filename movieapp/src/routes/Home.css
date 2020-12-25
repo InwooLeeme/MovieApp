@@ -1,6 +1,7 @@
 @import "../components/movie.css";
 @import "../components/reset.css";
 @import "../components/media.css";
+@import "../components/navigator.css";
 
 * {
   box-sizing: border-box;
