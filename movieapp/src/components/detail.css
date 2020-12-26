@@ -1,0 +1,34 @@
+.detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.detail__datas {
+  margin: 1rem;
+  color: #adaeb9;
+}
+
+.detail img {
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail__datas .detail__title {
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #2c2c2c;
+}
+
+.detail__datas .detail__title,
+.detail__datas .detail__year,
+.detail__datas .detail__genres,
+.detail__genres .genres__genre,
+.detail__datas .detail__summary {
+  margin: 1rem 0;
+}

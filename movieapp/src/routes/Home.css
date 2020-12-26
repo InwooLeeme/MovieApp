@@ -2,6 +2,7 @@
 @import "../components/reset.css";
 @import "../components/media.css";
 @import "../components/navigator.css";
+@import "../components/detail.css";
 
 * {
   box-sizing: border-box;

@@ -15,16 +15,16 @@ class Detail extends React.Component{
             return (
                 <div className="detail">
                     <img src={poster} alt={title} title={title}></img>
-                        <div className="detail">
-                        <h3 className="detail__title">{title}</h3>
-                        <h5 className="detail__year">{year}</h5>
-                        <ul className="detail__genres">{
+                        <div className="detail__datas">
+                            <h3 className="detail__title">{title}</h3>
+                            <h5 className="detail__year">{year}</h5>
+                            <ul className="detail__genres">{
                             genres.map(
                                 (genre, index) => <li key={index} className="genres__genre">{genre}</li>
                             )
-                        }</ul>
-                        <p className="detail__summary">{summary}</p>
-                    </div>
+                            }</ul>
+                            <p className="detail__summary">{summary}</p>
+                        </div>
                 </div>
             );
         }
